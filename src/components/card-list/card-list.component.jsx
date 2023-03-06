@@ -1,11 +1,11 @@
 import { Component } from 'react';
 
 import './card-list.styles.css';
-// import './card.styles.css';
+import './card.styles.css';
 
 class CardList extends Component {
   render() {
-    console.log('render')
+    console.log("render")
     const { monsters } = this.props;
 
     return (
