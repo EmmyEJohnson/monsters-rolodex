@@ -5,7 +5,7 @@ import SearchBox from './components/search-box/search-box.component';
 import './App.css';
 
 const App = () => {
-
+  console.log('render');
   const [searchField, setSearchField] = useState(''); //[value, setValue]
   console.log(searchField);
 
