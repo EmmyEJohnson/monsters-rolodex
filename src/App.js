@@ -32,6 +32,10 @@ const App = () => {
   return (
     <div className='App'>
       <h1 className='app-title'>Monsters Rolodex</h1>
+      <p className='source-code'>
+        <a href="https://github.com/EmmyEJohnson/monsters-rolodex">Source Code For This Project</a>
+      </p>
+      
 
       <SearchBox
         className='monsters-search-box'
